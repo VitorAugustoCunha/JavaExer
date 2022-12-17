@@ -1,0 +1,175 @@
+import java.util.Scanner;
+
+public class Att01{
+	Scanner entrada = new Scanner(System.in);
+	public static void main(String[] args){
+		getTotal();
+	}
+	public int getTotal(int a, int b){
+		int x = a + b;
+		return x;
+	}
+	public int par(int a){
+		if(a % 2 == 0){
+			return true;
+		}
+		else{
+			return false;
+		}
+	}
+	public int Vogal(){
+		int count = 0;
+		System.out.println("Digite uma palavra");
+		x = entrada.nextLine();
+		if(x.charAt('e'){
+			count++;
+		}
+		return count;
+	}
+	
+}
+
+4 - .java
+5 - ByteCode
+6 - Java Virtual Machine
+7 - javac arquivo.java
+8 - public static void main(String[] args){}
+9 - String
+10 - Erro de sintaxe, falta de ponto e vigurla e ''.
+11 - 2
+
+
+public class Pet{
+	private nome String;
+	private animal String;
+	private int idade;
+	public Pet(){
+	}
+	public void setNome(String x){
+		this.Nome = x;
+	}
+	public void setAnimal(String x){
+		this.animal = x;
+	}
+	public void setIdade(int x){
+		this.idade = x;
+	}
+	public String getNome(){
+		return this.nome;
+	}
+	public String getAnimal(){
+		return this.animal;
+	}
+	public int getIdade(){
+		retrun this.idade;
+	}
+}
+
+public class Carro{
+	private int ano;
+	private double velocidade;
+	private String marca;
+	public Carro(int ano, String marca, double velocidade){
+		ano = getAno();
+		marca = getMarca();
+		velocidade = getVelocidade();
+	}
+	public void setMarca(String x){
+		this.marca = x;
+	}
+	public void setVelocidade(double x){
+		this.velocidade = x;
+	}
+	public void setAno(int x){
+		this.ano = x;
+	}
+	public String getMarca(){
+		return this.Marca;
+	}
+	public String getVelocidade(){
+		return this.velocidade;
+	}
+	public int getAno(){
+		retrun this.ano;
+	}
+	
+}
+
+public class ArrayTeste{
+	public static void main(String[] args){
+		String[] array = {'Domingo', 'Segunda', 'Terça', 'Quarta', 'Quinta', 'Sexta', 'Sabado'};
+		for(int i = 0; i < array.leight; i++){
+			System.out.println(array[i]);
+		}
+	}
+}
+
+
+
+import java.util.Scanner;
+
+public class ArrayTeste2{
+	Scanner entrada = new Scanner(Sytem.in)
+	public static void main(String[] args){
+		int[] array = new int[10];
+		int soma = 0;
+		for(int i = 0; i < array.leight; i++){
+			System.out.println('Digite o valor: ');
+			int x = entrada.nextInt();
+			array[i] = x;
+			soma += x;
+		}
+		System.out.println(soma);
+	}
+}
+
+
+public class ArrayTeste3{
+	public static void main(String[] args){
+		int[] array = {1, 2, 3 ,4 ,5};
+		x = array.reverse();
+		system.out.System(x);
+	}
+}
+
+
+import java.util.Scanner;
+
+public class triangulo{
+	Scanner entrada = new Scanner(System.in);
+	private double base;
+	private double altura;
+	public static void main(String[] args){
+		setBase(entrada.nextDouble());
+		setAltura(entrada.nextDouble());
+		double valor = getBase + getAltura;
+		System.out.println(valor);	
+	}
+	public void setBase(double a){
+		this.base = a;
+	}
+	public void setAltura(double a){
+		this.altura = a;
+	}
+	public double getBase(){
+		return this.base;
+	}
+	public double getAltura(){
+		retrun this.altura;
+	}
+}
+
+
+public class sobrecarga{
+	public static void main(String[] args){
+		sobre(1, 2, 3);
+	}
+	public void sobre(int a, int b, int c){
+		System.out.println(a);
+		System.out.println(b);
+		System.out.println(c);
+	}
+}
+
+
+
